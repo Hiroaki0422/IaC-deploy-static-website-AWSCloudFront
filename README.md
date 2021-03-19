@@ -79,7 +79,7 @@ create_bucket_res
 ## 2. Go to S3 console and upload index.html and other required components 
 *Programiccally you can only upload files one-by-one. Upload via console is more efficient and secure if there are many files
 
-![S3_update](https://i.ibb.co/dJ5SHFq/Screen-Shot-2021-03-18-at-9-26-33-PM.png)
+![S3_update](https://i.ibb.co/VDrZjDB/Screen-Shot-2021-03-19-at-2-58-30-PM.png)
 
 ## 3. Update the bucket policy so that it can host static website
 
