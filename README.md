@@ -72,10 +72,14 @@ create_bucket_res
       'RetryAttempts': 0},
      'Location': 'http://udac-static-webapp-demo.s3.amazonaws.com/'}
 
+### Check the bucket was scuccessfully created
+![S3_bucket_image](https://i.ibb.co/dJ5SHFq/Screen-Shot-2021-03-18-at-9-26-33-PM.png)
 
 
 ## 2. Go to S3 console and upload index.html and other required components 
 *Programiccally you can only upload files one-by-one. Upload via console is more efficient and secure if there are many files
+
+![S3_update](https://i.ibb.co/dJ5SHFq/Screen-Shot-2021-03-18-at-9-26-33-PM.png)
 
 ## 3. Update the bucket policy so that it can host static website
 
@@ -304,7 +308,8 @@ distribution_response
        'HttpVersion': 'http2',
        'IsIPV6Enabled': True}}}
 
-
+### Check the distribution is running
+![CloudFront_dist](https://i.ibb.co/VYtW80y/Screen-Shot-2021-03-19-at-2-46-23-PM.png)
 
 ## View the website
 
@@ -318,5 +323,7 @@ distribution_response['Distribution']['DomainName']
 
 
     'd24eiq5diaxse5.cloudfront.net'
+    
+![website](https://i.ibb.co/m5XZF7B/Screen-Shot-2021-03-19-at-2-59-14-PM.png)
 
 
